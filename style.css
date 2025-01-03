@@ -5,6 +5,9 @@ body {
     transition: top 2s, left 2s;
   }
 }
+h1{
+  color: aqua;
+}
 .way {
   margin: 0 auto;
   width: 90%;
