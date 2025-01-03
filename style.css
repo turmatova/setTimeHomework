@@ -1,0 +1,166 @@
+body {
+  img {
+    width: 40px;
+    position: relative;
+    transition: top 2s, left 2s;
+  }
+}
+.way {
+  margin: 0 auto;
+  width: 90%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top {
+  width: 150px;
+  height: 800px;
+  background: rgb(34, 33, 33);
+  padding: 10px 0;
+}
+.br-top{
+  position: absolute;
+  top: 40px;
+  right: 673px;
+  width: 5px;
+  height:750px;
+  background: white;
+}
+.bottom {
+  width: 990px;
+  height: 2px;
+  color: white;
+  width: 990px;
+  height: 150px;
+  background: rgb(34, 33, 33);
+  position: absolute;
+  top: 310px;
+  left: 200px;
+  padding: 0px 0;
+}
+.br{
+  position: absolute;
+  top: 70px;
+  left: 40px;
+  width: 890px;
+  height: 5px;
+  background: white;
+}
+.img1 {
+  width: 30px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  left: 700px;
+  z-index: 10;
+}
+.img2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 65px;
+  position: absolute;
+  top: 90px;
+  z-index: 20;
+}
+.img3 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0;
+  width: 65px;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
+.img4 {
+  width: 30px;
+  position: absolute;
+  top: 90px;
+  left: 700px;
+  z-index: 10;
+}
+.img5 {
+  width: 65px;
+  position: absolute;
+  top: 80px;
+  left: 135px;
+}
+.img6 {
+  width: 65px;
+  position: absolute;
+  top: 70px;
+  left: 55px;
+}
+.img7 {
+  width: 65px;
+  position: absolute;
+  top: 27px;
+  left: 55px;
+}
+.img8 {
+  width: 65px;
+  position: absolute;
+  top: 19px;
+  left: 135px;
+}
+
+#hero {
+  padding: 10px 90px;
+}
+.hero {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+}
+.block-top {
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  width: 70px;
+  height: 170px;
+  background: #000;
+  transform: rotate(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  gap: 15px;
+}
+.block-col {
+  width: 20px;
+  height: 150px;
+  background: gray;
+  z-index: 3;
+  margin: 0 25px;
+}
+.red {
+  width: 40px;
+  height: 40px;
+  background: gray;
+  border-radius: 50%;
+}
+.yellow {
+  width: 40px;
+  height: 40px;
+  background: gray;
+  border-radius: 50%;
+}
+.green {
+  width: 40px;
+  height: 40px;
+  background: gray;
+  border-radius: 50%;
+}
+button {
+  font-size: 20px;
+  padding: 5px 10px;
+  margin-bottom: 30px;
+  background: #000;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
